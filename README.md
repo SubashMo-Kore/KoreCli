@@ -23,6 +23,8 @@ cd KoreCli
 
 ```sh
 npm install
+
+This should take some time, since this project uses puppeteer
 ```
 
 ## Create .env file
