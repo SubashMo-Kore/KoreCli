@@ -1,0 +1,19 @@
+{
+  "name": "kore-cli",
+  "version": "1.0.0",
+  "description": "cli for Kore.ai",
+  "main": "bin/ipWhiteList.js",
+  "bin": {
+    "ipWhitelist": "./bin/ipWhiteList.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Subash",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "public-ip": "^4.0.4",
+    "puppeteer": "^12.0.0"
+  }
+}
